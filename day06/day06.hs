@@ -50,7 +50,6 @@ processPart2Block cols =
       nums = mapMaybe parseColNumber cols
    in foldl1 opFunc nums
 
-
 parseColNumber :: String -> Maybe Int
 parseColNumber col =
   let digits = filter isDigit col
@@ -85,5 +84,3 @@ toOp :: String -> (Int -> Int -> Int)
 toOp "+" = (+)
 toOp "*" = (*)
 toOp _ = (+) -- default plus, just assumethis doesn't happen
-
-
