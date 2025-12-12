@@ -1,0 +1,14 @@
+# Ignore the artifacts from building the project
+_build/
+
+# Ignore the local opam switch cache
+_opam/
+
+# OCaml editor/tooling files
+.merlin
+*.install
+.#*
+*.sw[a-p]
+*.swx
+duniverse/ 
+.DS_Store
