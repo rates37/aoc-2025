@@ -144,7 +144,7 @@ def main():
     import time
 
     if len(sys.argv) != 2:
-        print("Usage: python3 day02_optimised.py <filename>")
+        print("Usage: python3 day02_p2_optimised.py <filename>")
     start_time = time.time()
 
     total = part2(sys.argv[1])
